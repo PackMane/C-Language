@@ -1,13 +1,16 @@
 # C-Language
 
 C Language Project Descriptions & Functionality
+
 Mario
+
 Toward the end of World 1-1 in Nintendo’s Super Mario Brothers, Mario must ascend
 right-aligned pyramid of blocks, a la the below.
 Let’s recreate that pyramid in C, albeit in text, using hashes (​#​) for bricks, a la the below. Each
 hash is a bit taller than it is wide, so the pyramid itself is also be taller than it is wide.
 
 Cash
+
 When making change, odds are you want to minimize the number of coins you’re dispensing for
 each customer, lest you run out (or annoy the customer!). Fortunately, computer science has
 given cashiers everywhere ways to minimize numbers of coins due: greedy algorithms.
@@ -21,6 +24,7 @@ Change owed: 0.
 4
 
 Readability
+
 Implement a program that computes the approximate grade level needed to comprehend some
 text, per the below.
 $ ./readability
@@ -29,6 +33,7 @@ You're off and away!
 Grade 3
 
 Caesar
+
 Implement a program that encrypts messages using Caesar’s cipher, per the below.
 $ ./caesar 13
 plaintext: HELLO
@@ -71,6 +76,7 @@ every voter gets to vote for one candidate. At the end of the election, whicheve
 the greatest number of votes is declared the winner of the election.
 
 Runoff
+
 Implement a program that runs a runoff election, per the below.
 ./runoff Alice Bob Charlie
 Number of voters: 5
@@ -92,6 +98,7 @@ Rank 3: Bob
 Alice
 
 Filter
+
 Implement a program that applies filters to BMPs, per the below.
 $ ./filter -r image.bmp reflected.bmp
 Background
@@ -110,6 +117,7 @@ hexadecimal, that pixel is purely red, as ​0xff​ (otherwise known as ​ 255
 lot of red,” while ​0x00​ and ​0x00​ imply “no green” and “no blue,” respectively.
 
 Recover
+
 Implement a program that recovers JPEGs from a forensic image, per the below.
 $ ./recover card.raw
 Background
@@ -122,6 +130,7 @@ sure that’s not quite true. Indeed, we’re hoping (er, expecting!) you can wr
 recovers the photos for us!
 
 Speller
+
 Be sure to read this specification in its entirety before starting so you know what to do and how
 to do it!
 Implement a program that spell-checks a file, a la the below, using a hash table.
